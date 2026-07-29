@@ -1,0 +1,78 @@
+baseURL = "https://atelier4ideas.com/"
+languageCode = "en-us"
+title = "Atelier4Ideas"
+theme = "PaperMod"
+
+paginate = 12
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  collection = "collections"
+
+# Main Params
+[params]
+  env = "production"
+  description = "A creative lab exploring design, illustration, and print-on-demand concepts."
+  author = "Keith"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  # UI
+  showReadingTime = false
+  showPostNavLinks = true
+  showBreadCrumbs = true
+  showCodeCopyButtons = true
+  hideFooter = false
+
+  # Home Info Block
+  [params.homeInfoParams]
+    Title = "Atelier4Ideas"
+    Content = """
+A creative lab exploring design, illustration, and print‑on‑demand concepts.
+
+Discover collections, browse ideas, and follow the studio’s evolving work.
+"""
+
+  # Featured Blocks
+  [[params.featured]]
+    title = "Latest Designs"
+    url = "/designs/"
+
+  [[params.featured]]
+    title = "Collections"
+    url = "/collections/"
+
+  [[params.featured]]
+    title = "Ideas & Concepts"
+    url = "/ideas/"
+
+# Social Icons (optional)
+[[params.social]]
+  name = "github"
+  url = "https://github.com/"
+
+[[params.social]]
+  name = "instagram"
+  url = "https://instagram.com/"
+
+# Menu
+[[menu.main]]
+  name = "Designs"
+  url = "/designs/"
+  weight = 1
+
+[[menu.main]]
+  name = "Collections"
+  url = "/collections/"
+  weight = 2
+
+[[menu.main]]
+  name = "Ideas"
+  url = "/ideas/"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 4
