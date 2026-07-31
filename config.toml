@@ -10,7 +10,7 @@ pygmentsUseClasses = true
 
 [languages]
   [languages.en]
-    languageName = "English"
+    label = "English"
     locale = "en-US"
     direction = "ltr"
     weight = 1
@@ -28,6 +28,8 @@ pygmentsUseClasses = true
   showCodeCopyButtons = true
   showToc = true
   search = true
+
+  disableSchema = true
 
   [params.homeInfoParams]
     Title = "Atelier4Ideas"
