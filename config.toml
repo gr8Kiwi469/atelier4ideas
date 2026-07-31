@@ -31,13 +31,6 @@ pygmentsUseClasses = true
 
   disableSchema = true
 
-  [params.homeInfoParams]
-    Title = "Atelier4Ideas"
-    Content = """
-A creative studio for explorations, workflows, and idea development.
-Structured thinking meets visual experimentation.
-"""
-
   [params.socialIcons]
     name = "github"
     url = "https://github.com/gr8Kiwi469"
