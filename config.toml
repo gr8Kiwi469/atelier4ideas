@@ -3,17 +3,9 @@ title = "Atelier4Ideas"
 theme = "PaperMod"
 paginate = 10
 locale = "en-US"
-
-# Enable clean URLs
 canonifyURLs = true
-
-# Improve SEO + social previews
 enableRobotsTXT = true
-
-# Better Markdown rendering
 enableEmoji = true
-
-# Syntax highlighting
 pygmentsUseClasses = true
 
 [languages]
@@ -24,59 +16,57 @@ pygmentsUseClasses = true
     weight = 1
 
 [params]
-  # Core identity
   description = "Creative explorations, ideas, workflows, and visual thinking."
   keywords = ["ideas", "creativity", "workflows", "design", "exploration"]
   author = "Keith Denham"
 
-  # UI / UX
-  defaultTheme = "auto"       # auto-switch light/dark
+  defaultTheme = "auto"
   disableThemeToggle = false
   showReadingTime = true
   showPostNavLinks = true
   showBreadCrumbs = true
   showCodeCopyButtons = true
   showToc = true
+  search = true
 
-  # Homepage
-  homeInfoParams = { 
-    Title = "Atelier4Ideas",
-    Content = "Explorations, creative workflows, and idea development."
-  }
+  [params.homeInfoParams]
+    Title = "Atelier4Ideas"
+    Content = """
+A creative studio for explorations, workflows, and idea development.
+Structured thinking meets visual experimentation.
+"""
 
-  # Social icons (add/remove as needed)
-  socialIcons = [
-    { name = "github", url = "https://github.com/gr8Kiwi469" },
-    { name = "email", url = "mailto:your-email@example.com" }
-  ]
+  [params.socialIcons]
+    name = "github"
+    url = "https://github.com/gr8Kiwi469"
 
-  # Search (client-side)
-  fuseOpts = { 
-    isCaseSensitive = false,
-    shouldSort = true,
-    includeMatches = true,
-    threshold = 0.3
-  }
+  [params.assets]
+    favicon = "/images/favicon.png"
+    logo = "/images/logo.png"
 
-# Menu structure (example — adjust as needed)
 [menu]
-  [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-
   [[menu.main]]
     name = "Ideas"
     url = "/ideas/"
-    weight = 2
+    weight = 1
 
   [[menu.main]]
     name = "Workflows"
     url = "/workflows/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Explorations"
+    url = "/explorations/"
     weight = 3
+
+  [[menu.main]]
+    name = "Collections"
+    url = "/collections/"
+    weight = 4
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 5
 
