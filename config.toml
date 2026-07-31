@@ -1,9 +1,14 @@
 baseURL = "https://atelier4ideas.com/"
-languageCode = "en-us"
 title = "Atelier4Ideas"
+subtitle = "Creative explorations, ideas, and workflows"
 theme = "PaperMod"
+locale = "en-US"
+paginate = 10
 
-paginate = 12
+[languages]
+  [languages.en]
+    locale = "en-US"
+    direction = "ltr"
 
 # Taxonomies
 [taxonomies]
