@@ -1,0 +1,24 @@
+.hero {
+  padding: 6rem 1rem;
+  text-align: center;
+  background: linear-gradient(135deg, #f7f7f7, #eaeaea);
+  border-bottom: 1px solid #ddd;
+}
+
+.hero-inner h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-inner .tagline {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.tagline-block {
+  text-align: center;
+  margin: 2rem auto;
+  max-width: 700px;
+  font-size: 1.2rem;
+  color: #444;
+}
