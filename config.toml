@@ -38,6 +38,7 @@ pygmentsUseClasses = true
   [params.assets]
     favicon = "/images/favicon.png"
     logo = "/images/logo.png"
+    css = ["css/extended/hero.css", "css/extended/modes-grid.css"]
 
 [menu]
   [[menu.main]]
@@ -50,10 +51,10 @@ pygmentsUseClasses = true
     url = "/workflows/"
     weight = 2
 
-  [[menu.main]]
-    name = "Explorations"
-    url = "/explorations/"
-    weight = 3
+#  [[menu.main]]
+#    name = "Explorations"
+#    url = "/explorations/"
+#    weight = 3
 
   [[menu.main]]
     name = "Collections"
