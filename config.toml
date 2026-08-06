@@ -42,7 +42,7 @@ pygmentsUseClasses = true
 
 [menu]
   [[menu.main]]
-    name = "Home - AnthologyAtelier"
+    name = "AnthologyAtelier"
     url = "https://anthologyatelier.com/"
 #    weight = 20
     weight = 1
