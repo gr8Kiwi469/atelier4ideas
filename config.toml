@@ -20,7 +20,7 @@ pygmentsUseClasses = true
   keywords = ["ideas", "creativity", "workflows", "design", "exploration"]
   author = "Keith Denham"
 
-  defaultTheme = "auto"
+  defaultTheme = "light"
   disableThemeToggle = false
   showReadingTime = true
   showPostNavLinks = true
