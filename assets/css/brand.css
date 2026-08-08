@@ -1,0 +1,11 @@
+/* Change color of the Atelier4Ideas hero title */
+.home-title,
+.post-title {
+  color: #D9A441 !important;   /* Gold */
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4); /* optional, improves readability */
+}
+
+#Gold (brand)          - #D9A441
+#Charcoal              - #1A1A1A
+#Soft White            - #F7F7F5
+#Indigo (A4Tech style) - #2C2F7A

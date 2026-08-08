@@ -21,6 +21,9 @@ pygmentsUseClasses = true
   author = "Keith Denham"
 
   defaultTheme = "light"
+
+  customCSS = ["css/brand.css"]
+
   disableThemeToggle = false
   showReadingTime = true
   showPostNavLinks = true
@@ -62,10 +65,28 @@ pygmentsUseClasses = true
 #    url = "/explorations/"
 #    weight = 4
 
+#[menu]
+
+  # Parent menu item
   [[menu.main]]
     name = "Collections"
+    identifier = "collections"
     url = "/collections/"
-    weight = 5
+    weight = 30
+
+  # Child: T-Shirts
+  [[menu.main]]
+    name = "T-Shirts"
+    parent = "collections"
+    url = "/collections/t-shirts/"
+    weight = 31
+
+  # Child: Coming-Soon
+  [[menu.main]]
+    name = "Coming-Soon"
+    parent = "collections"
+    url = "/collections/coming-soon/"
+    weight = 32
 
   [[menu.main]]
     name = "About"

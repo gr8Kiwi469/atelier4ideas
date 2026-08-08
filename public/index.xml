@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Atelier4Ideas</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Atelier4Ideas</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 30 Jul 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Creative Flow Loop</title>
+      <link>http://localhost:1313/workflows/creative-flow-loop/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/workflows/creative-flow-loop/</guid>
+      <description>A repeatable cycle for developing ideas into usable outputs.</description>
+    </item>
+    <item>
+      <title>Seedling Model</title>
+      <link>http://localhost:1313/ideas/seedling-model/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ideas/seedling-model/</guid>
+      <description>A simple metaphor for how ideas grow inside a creative studio.</description>
+    </item>
+    <item>
+      <title>Visual Thinking as a Cognitive Tool</title>
+      <link>http://localhost:1313/explorations/visual-thinking/</link>
+      <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/explorations/visual-thinking/</guid>
+      <description>Investigating how diagrams and visual structures improve reasoning.</description>
+    </item>
+  </channel>
+</rss>
