@@ -1,6 +1,0 @@
-.mode-icon {
-  width: 40px;
-  height: 40px;
-  margin-bottom: 0.75rem;
-  opacity: 0.85;
-}
