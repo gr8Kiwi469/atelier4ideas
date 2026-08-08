@@ -5,6 +5,14 @@
   text-shadow: 0 1px 3px rgba(0,0,0,0.4); /* optional, improves readability */
 }
 
+/* Hero title override */
+.home-info h1,
+.home-title {
+  color: #D9A441 !important;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+
 #Gold (brand)          - #D9A441
 #Charcoal              - #1A1A1A
 #Soft White            - #F7F7F5
